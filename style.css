@@ -1,0 +1,107 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+   width: 100%;
+   height: 520px;
+    background-color:palevioletred;
+    display: flex;
+}
+.part1{
+    width: 30%;
+     height: 100%;
+     background-color: rgba(255, 192, 203, 0.192);
+}
+.part2{
+    width: 60%;
+     height: 100%;
+     background-image: url(img.png.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-color: rgb(255, 94, 0);
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.158);
+  
+}
+.part3{
+    width: 10%;
+     height: 100%;
+     background-color:rgba(255, 192, 203, 0.192);
+}
+.text{
+    position:absolute ;
+    /* background-color: palevioletred; */
+    top: 40%;
+    left: 10%;
+    height: 300px;
+    width: 400px;
+text-transform: uppercase;
+font-size: 28px;
+font-weight: 500;
+letter-spacing: 3px;
+line-height:48px;
+color: rgb(255, 255, 255);
+font-family: Arial, Helvetica, sans-serif;
+}
+.small{
+    height: 230px;
+    width: 190px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    background-image: url(img2.png);
+   background-size: cover;
+   /* border-radius: 100px; */
+}
+.text2{
+    position: absolute;
+    width: 100%;
+    margin-top: 50px;
+    background-color: rgba(255, 235, 205, 0.089);
+}
+.text2 h1{
+    font-size: 40px;
+    color: transparent;
+    letter-spacing: 2px;
+    transform: rotate(90deg);
+    transform-origin: 3% ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+  
+}
+.nav{
+    left: 90px;
+    top: 10px;
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav img{
+    width: 60px;
+}
+.nav h4{
+ font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
